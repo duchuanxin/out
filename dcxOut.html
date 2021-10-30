@@ -1592,7 +1592,7 @@
 					</div>
 				</div>
 				<div class="wxformbtn m_start_btn">
-					<button class="draftdiv active">更多</button>
+					<button class="draftdiv active" onclick="aaa()">更多</button>
 					<div class="wxformbtn_center"></div>
 				</div>
 			</div>
@@ -1635,8 +1635,12 @@
 				preview.src = "./image/default.png"
 			}
 		</script>
-		// click to become bigimg
 		<script>
+			function aaa(){
+				alert("qqq")
+			}
+			
+		// click to become bigimg
 			$(function(){
 			   $(".pic").click(function(){ 
 				   alert("a");
